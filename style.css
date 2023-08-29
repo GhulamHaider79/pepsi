@@ -1,0 +1,105 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #0025ff;
+    font-family: helvetica, sans-serif;
+}
+.nav-container>ul>li>img{
+    width: 100px;
+}
+.logo{
+    transition: all 0.5s;
+}
+.logo:hover{
+    transform: scale(0);
+    animation-iteration-count: infinite;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 900;
+}
+.button{
+    margin-left: 15rem;
+    margin-right: 4rem;
+}
+.button-span{
+    font-family: helvetica;
+    text-transform: uppercase;
+    padding: 15rem 0rem 15rem 0rem;
+    font-weight: 900;
+}
+.button-one{
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.5em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
+}
+.nav-ul>li{
+    list-style: none;
+}
+.nav-ul>li>a{
+    color: #fff;
+}
+.nav-ul>li>a{
+    text-decoration: none;
+}
+.pepsi-125{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+.pepsi-125-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+.pepsi-125-header>h1{
+    color: #fff;
+    font-size: 10rem;
+    font-family: Helvetica, sans-serif;
+    line-height: 10rem;
+    font-weight: 900;
+}
+.pepsi-125-header>h3{
+    color: #fff;
+    font-size: 6rem;
+    margin-top: -1rem;
+    font-family: Helvetica, sans-serif; 
+    line-height: 2rem;
+    font-weight: bolder;
+}
+.pepsi-125>a{
+    text-decoration: none;
+    align-self: center;
+}
+.pepsi-125>a>button{
+    background-color: #0025ff;
+    color: #fff;
+    width: 20rem;
+    height: 4rem;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.pepsi-125>img{
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
